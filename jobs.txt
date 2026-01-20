@@ -1,0 +1,88 @@
+Job 1 : Java Developer
+Location : San Jose, CA
+Long Term Contract 
+ 
+Roles & Responsibilities 
+Gathers and verifies technical requirements
+Authors and audits technical design for features
+Competent in programming and debugging across multiple modules and dealing with related external dependencies
+Writes high quality code with full test coverage
+Reviews code to ensure it is functionally correct and is of high quality
+Provides story or business requirements breakdown planning and estimation, reviews and evaluates the team's estimates
+Accountable for complex stories or business requirements
+Identifies feature and module dependencies
+Proposes mitigation plans for identified risks and problems
+Suggests process improvements and best practices
+Identifies new areas that could be measured
+Able to identify, evaluate and discuss alternative technologies and techniques
+Justifies decisions and achieves peer consent
+Must have Experience 
+8+ years of professional software engineering experience, with 5+ years focused on Java/Spring Boot backend services.
+Strong core Java coding skills & ability to articulate coding problem-solving approach
+Expert in multithreading, memory management, collections, Microservices design, production-level troubleshooting & database fundamentals.
+Deep experience designing microservices (service boundaries, API design, idempotency, retries, circuit breaking).
+Hands-on with Oracle (SQL tuning, indexing, stored procedures) and Cassandra (data modeling, consistency levels) are strongly preferred, candidates with no SQL experience with other databases will still be considered
+Production experience with Kafka (consumer groups, partitioning, offset management, schema evolution) is strongly preferred, candidates with similar system experience will still be considered
+Strong grasp of testing: unit/integration/contract tests; test data management.
+Solid knowledge of RESTful APIs, pagination, error handling, and versioning.
+Experience with CI/CD (e.g., Jenkins/GitHub Actions) and Git workflows.
+Proficiency in observability (e.g., logs/metrics/traces) and performance optimization for JVM-based services.
+Ability to lead technical initiatives, review designs, and drive outcomes in a fast-paced environment.
+
+----------------------------------------------
+
+Job 2: Python Developer 
+
+Location: Richardson, TX
+
+
+About the Role
+Strong understanding of core concepts (OOP, modules, decorators, context managers, virtual environments). Proficiency with data handling using NumPy (array manipulation, broadcasting, vectorization) and Pandas (indexing, filtering, aggregation, joins). Experience with error handling, file I/O, logging and unit testing (unittest / pytest).
+Proficiency in intermediate SQL - joins, subqueries, window functions, transactions, and indexing. Ability to analyze and optimize queries for performance.
+Experience with data modeling, stored procedures, and at least one major RDBMS (PostgreSQL, MySQL, or SQL Server).
+In-depth knowledge of version control workflows - branching strategies (Git Flow, trunk-based), merging, resolving conflicts, tagging, and versioning. Familiarity with pull requests, code reviews, and integrating Git into CI/CD pipelines. Experience with GitHub/GitLab and repository management best practices.
+
+
+What We're Looking For:
+Bachelor’s degree or foreign equivalent from an accredited institution – we will consider three years of progressive experience in the specialty in place of each year of education
+Minimum of 2 years of hands-on experience in Information Technology and software development lifecycle
+This is a full-time W2 role, not C2C
+
+-----------------------------------------------
+
+Job 3: Marketing Manager
+
+United Landmark Associates is looking for an experienced and creative Social Media Specialist to join our team. As a Social Media Specialist, this person will be responsible for developing, implementing and managing social media strategy and campaigns for our clients, in order to increase their digital presence and ultimately meet/exceed their marketing and sales goals. This person will work closely with the Art and Account Services departments.
+
+Requirements
+
+A minimum of 2 years of experience as a Social Media Manager or similar role
+Bachelor’s degree in marketing, journalism or relevant field
+Excellent knowledge of Facebook, LinkedIn, Pinterest, Instagram and other social media platforms and best practices
+Strong understanding of social media KPIs
+Familiarity with graphic design, copywriting and content development
+Basic understanding of image composition, photography and video
+Experience with video editing is preferred
+Proven experience managing paid campaigns within Ads Manager
+Experience with luxury brands or real estate is strongly preferred
+Great interpersonal and communication skills, including written and verbal; must be client-facing
+Ability to attend after hours events on nights and weekends only as needed
+Ability to travel to local client sales centers and locations (light travel)
+Must be able to work in-office daily at our office in South Tampa, Florida
+
+RESPONSIBILITITES
+
+Work with the Digital Marketing Director, Account Managers and Creative Director to develop, implement and manage social media strategy and campaigns for high-end clients.
+Fully manage paid social media platforms for ULA and client accounts.
+Define and monitor social media KPIs and presenting monthly/quarterly results in client meetings.
+Work with Creative team (graphic designers and copywriters) to develop engaging and creative social media content.
+Brainstorm new and interactive content ideas to help drive engagement and increase results.
+Update client social profiles regularly, including cover images, story highlights, photo albums, etc.
+Analyze and measure success of paid and organic social media campaigns on multiple platforms.
+Ability to analyze and correlate how various social media efforts relate to each other from a performance standpoint.
+Occasionally attend client events and visit client locations to capture social media content.
+Engage with users across all social channels in the form of comments, invitations to follow, direct messages, reactions, groups and more.
+Stay up to date with the latest social media best practices and technologies.
+Use social media marketing scheduling tools, such as HeyOrca!
+Monitor client hashtags, keywords and @mentions for user engagement and to suggest content optimizations.
+Communicate with realtors and influencers via client social media accounts to build strong networks.

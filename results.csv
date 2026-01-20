@@ -1,0 +1,4 @@
+Job ID,Verdict,Confidence,Reason
+Job 1,REJECT,90%,"Job is pure Java backend with no AI/Data Engineering or React requirements, which doesn't align with the candidate's AI Master's or full stack React skills."
+Job 10,REJECT,95%,Candidate is Java/React focused; job is purely Python. Major tech stack mismatch.
+Job 19,REJECT,95%,Candidate's Java/React tech stack and AI background are not relevant to a Social Media Specialist role.

@@ -1,0 +1,64 @@
+#main
+
+def process_urls():
+    # Read URLs
+    try:
+        with open("urls.txt", "r") as f:
+            urls = [line.strip() for line in f if line.strip()]
+    except FileNotFoundError:
+        print("❌ Error: Could not find 'urls.txt'. Please create it first!")
+        return
+
+    print(f"Found {len(urls)} links to process.\n")
+
+    # print("⚠️  TRAINING MODE ACTIVE ⚠️")
+    # print("1. The browser will open.")
+    # print("2. Log in to LinkedIn / Indeed manually.")
+    # print("3. Come back here and press ENTER to start scraping.")
+
+    # # We open a dummy browser just to let you login
+    # # (Note: We use the SAME options with the user-data-dir)
+    # user_data_dir = r"C:\Users\easwa\python_app\chrome_bot_profile"
+    # options = webdriver.ChromeOptions()
+    # options.add_argument(f"user-data-dir={user_data_dir}")
+    # options.add_argument("--remote-debugging-port=9222")
+
+    # # Initialize the driver for login
+    # driver = webdriver.Chrome(service=Service(
+    #     ChromeDriverManager().install()), options=options)
+    # driver.get("https://www.linkedin.com/login")
+
+    # # PAUSE HERE
+    # input("👉 Press ENTER in this terminal once you are fully logged in...")
+
+    # driver.quit()  # Close the manual login window
+
+    with open("selenium_results.csv", "w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["URL", "Verdict", "Confidence", "Reason"])
+
+        for url in urls:
+            # A. SCRAPE
+            text_content = get_selenium_text(url)
+
+            with open(f"debug_job_{urls.index(url)}.txt", "w", encoding="utf-8") as debug_f:
+                debug_f.write(text_content)
+
+            if text_content.startswith("ERROR"):
+                writer.writerow([url, "SCRAPE_FAIL", "0%", text_content])
+                continue
+
+            # B. ANALYZE
+            print("   🤖 Analyzing content...")
+            result = analyze_job(text_content)
+
+            # C. SAVE
+            parts = result.split("|")
+            if len(parts) == 3:
+                print(f"   ✅ Verdict: {parts[0]}")
+                writer.writerow(
+                    [url, parts[0].strip(), parts[1].strip(), parts[2].strip()])
+            else:
+                writer.writerow([url, "AI_FORMAT_ERROR", "0%", result])
+
+    print("\n✅ DONE! Check 'selenium_results.csv'")

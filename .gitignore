@@ -1,0 +1,18 @@
+# --- .gitignore ---
+
+# 1. Security: Block your Login Cookies & Passwords
+chrome_bot_profile/
+
+# 2. Privacy: Block your Resume & Output Data
+resume.pdf
+smart_results.csv
+scraped_jobs/
+urls.txt
+
+# 3. Python Junk: Block virtual environments & cache
+venv/
+__pycache__/
+*.pyc
+
+# 4. System Junk
+.DS_Store
