@@ -1,4 +1,5 @@
 # 🤖 AI Recruiter: Automated Job Screening Bot
+![Powered by Gemini](https://img.shields.io/badge/Powered%20by-Gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
 
 This Python bot automates the job application process by scraping LinkedIn, parsing Job Descriptions (JDs), and performing a "Gap Analysis" against your actual PDF Resume using Google Gemini AI.
 
