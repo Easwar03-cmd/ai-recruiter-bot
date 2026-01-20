@@ -15,7 +15,7 @@ from urllib.parse import quote
 
 # 1. CONFIGURATION
 # ---------------------------------------------------------
-API_KEY = "AIzaSyDZEpEsdOysIwrxhfkK6w8n_mvck9ia9nE"
+API_KEY = "GEMINI_API_KEY"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
